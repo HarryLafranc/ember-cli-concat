@@ -213,7 +213,7 @@ module.exports = {
     } else {
       closing = this.useSelfClosingTags ? ' /' : '';
 
-      return '<link rel="stylesheet" href="' + path + '"' + closing + '>\n';
+      return '<link integrity="" rel="stylesheet" href="' + path + '"' + closing + '>\n';
     }
   },
 
